@@ -1,1 +1,9 @@
 # ECE444-F2023-Lab5
+
+Test cases added by me all related to checking if an important page is reachable
+https://github.com/ECE444-2023Fall/project-1-web-application-design-group13-giggelz/blob/main/app_test.py#L17-L60
+
+## What are the pros and cons of Test-Driven Development (TDD)?
+TDD presents significant advantages in software development. The practice leads to enhanced code quality as developers write code specifically to pass test cases, promoting modular maintainable solutions. TDD promotes early issue detection by requiring tests to be written before code implementation, allowing developers to catch issues immediately. This approach simplifies debugging, as recent changes can be correlated with failing test cases. TDD forces the integration of automated testing which not only improves efficiency but also functions as effective regression testing. The entire suite of test cases can be systematically executed, ensuring that existing functionalities remain intact with each code modification. Overall, TDD contributes to robust, high-quality software.
+
+Despite having many advantages, TDD has some drawbacks that can impact the development process. One major concern is its time-consuming nature. A significant amount of time is spent writing tests before actual development begins which can slowdown the progress of a project. Maintenance of tests is another challenge as the project proceeds. With the addition of new requirements or alterations to existing ones, keeping the test suite aligned with the codebase can become a time-intensive task. Additionally, there is a risk of incomplete coverage, where certain aspects may be missed during the initial testing phase, giving a false sense of security as all visible tests pass despite potential gaps in test coverage, which might be critical.
